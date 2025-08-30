@@ -1,0 +1,77 @@
+body{
+
+    margin:0;
+    font: Arial;
+    background: rgb(240, 240, 240);
+    padding:0;
+}
+
+h1{
+    text-align: center;
+}
+
+.app{
+
+    max-width: 520px;
+    margin: 48px;
+    background: rgb(255,255,255);
+    border-radius: 12px;
+    padding:20px;
+
+}
+
+
+#todo{
+    display: flex;
+    margin-bottom:12px;
+    border: 1px solid rgb(230, 232, 239);
+
+}
+
+#todo-input{
+    flex:1px;
+    padding: 10px 12px;
+    border: 1px solid rgb(217,219,226);
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+button{
+    padding:10px 14px;
+    border: none;
+    border-radius:10px;
+    background: rgb(59, 130, 246);
+    color: rgb(255,255,255);
+    cursor: pointer;
+
+}
+
+#todo-list{
+
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+
+.items{
+
+    display:grid;
+    gap:10px;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius:10px;
+    margin:8px;
+    background: rgb(250, 251, 255);
+
+}
+
+.delete{
+
+    border: 1px solid rgb(240,217,220);
+    background: rgb(255,255,255);
+    color: rgb(180,35,44);
+    padding: 6px 10px;
+    border-radius: 8px;
+
+}
